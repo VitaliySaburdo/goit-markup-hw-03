@@ -1,0 +1,218 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --text-logo-color: #000000;
+  --accent-color: #2196f3;
+  --wite-background-color: #ffffff;
+  --button-color: #f5f4fa;
+  --accent-bacground-color: #2f303a;
+  --wite-text-color: #ffffff;
+  --section-bacground-color: #eeeeee;
+  --alt-section-color: #e5e5e5;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --team-background-color: #f5f4fa;
+}
+body {
+  background-color: var(--wite-background-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+/* Decoration: text link */
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* Header */
+
+/* Nav */
+/* Logo */
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo-accent {
+  color: var(--text-logo-color);
+}
+.footer-logo {
+  color: var(--wite-text-color);
+}
+/* Nav links */
+.link-nav {
+  color: var(--title-text-color);
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contacts-link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+.link-nav:hover,
+.link-nav:focus {
+  color: var(--accent-color);
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero-title {
+  color: var(--wite-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero {
+  background-color: var(--accent-bacground-color);
+}
+
+.button-hero {
+  font-family: Roboto;
+  background-color: var(--accent-color);
+  color: var(--wite-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+/* peculiarities */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.peculiarities-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  text-transform: uppercase;
+}
+
+.peculiarities-text {
+  line-height: 1.71;
+}
+
+/* Work */
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--title-text-color);
+}
+
+/* Team */
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--title-text-color);
+}
+.team {
+  background-color: var(--team-background-color);
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--title-text-color);
+}
+.profession {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+/* Portfolio */
+.portfolio-button {
+  font-family: Roboto;
+  color: var(--title-text-color);
+  background-color: var(--button-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--wite-text-color);
+  background-color: var(--accent-color);
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.examples {
+  line-height: 1.87;
+  font-size: 16px;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--accent-bacground-color);
+}
+.footer-link {
+  line-height: 1.71;
+  color: var(--wite-text-color);
+  font-style: normal;
+}
+.address-link {
+  font-style: normal;
+  line-height: 1.71;
+  color: var(--footer-text-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}

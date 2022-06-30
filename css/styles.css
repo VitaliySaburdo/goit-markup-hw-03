@@ -234,6 +234,11 @@ body {
 }
 
 /* Work */
+
+.work {
+  padding-bottom: 94px;
+}
+
 .work-title {
   font-weight: 700;
   font-size: 36px;

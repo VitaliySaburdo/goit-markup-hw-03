@@ -74,13 +74,6 @@ p {
   padding-bottom: 94px;
 }
 
-.hero-text-container {
-  width: 696px;
-  height: 120px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .peculiarities-text-container {
   width: 270px;
   margin-left: 0;
@@ -89,7 +82,6 @@ p {
 
 /* Header */
 .header {
-  height: 80px;
   border-bottom: 1px solid var(--header-line-colour);
 }
 /* Logo */
@@ -98,11 +90,15 @@ p {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
+  line-height: calc(31 / 26);
   text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .logo-accent {
   color: var(--text-logo-color);
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 /* Nav */
@@ -113,24 +109,30 @@ p {
 .header-nav {
   display: flex;
   align-items: center;
+  margin-left: 93px;
 }
 
 .header-list {
   display: flex;
-  margin-left: 93px;
 }
+
 .header-list .header-item + .header-item {
   margin-left: 50px;
 }
-.header-list .link-nav {
+
+.link-nav {
   display: block;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   color: var(--title-text-color);
   font-weight: 500;
-  line-height: 1.4;
+  line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.current {
+  color: var(--accent-text-color);
 }
 /* Contacts */
 .header-contacts {
@@ -142,12 +144,12 @@ p {
 }
 .contacts-list .contacts-link {
   display: block;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   color: var(--primary-text-color);
   font-weight: 500;
-  line-height: 1.4;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -161,23 +163,26 @@ p {
   color: var(--accent-text-color);
 }
 
-.current {
-  color: var(--accent-text-color);
-}
-
 /* Hero */
 
 .hero-title {
   color: var(--wite-text-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: calc(60 / 44);
 
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
   margin-top: 0px;
   margin-bottom: 30px;
+}
+
+.hero-text-container {
+  width: 696px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero {
@@ -266,10 +271,12 @@ p {
 
 .work-list {
   display: flex;
-  justify-content: space-between;
 }
 .work-item {
-  padding-bottom: 0;
+  margin-right: 30px;
+}
+.work-item:last-child {
+  margin-right: 0;
 }
 
 /* Team */
@@ -368,11 +375,10 @@ p {
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 
-  width: 322px;
   height: 30px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 .portfolio-list {
   display: flex;
@@ -422,7 +428,6 @@ p {
 }
 
 .address-container {
-  width: 231px;
   margin-top: 20px;
 }
 .footer-item {
